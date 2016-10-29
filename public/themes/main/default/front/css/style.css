@@ -1,0 +1,21 @@
+*{font-family: Asap, sans-serif;outline:none;}
+body{margin:0; padding:0;}
+#wall{line-height: 0;-webkit-column-count:5;-webkit-column-gap:0;column-count:5; column-gap:0; }
+#wall img {width: 100% !important;height: auto !important;}
+
+form{max-width:500px;width:90%;margin:0 auto;}
+input[type="text"], input[type="password"]{width:100%;padding:10px 0;}
+input[type="submit"]{width:100%;}
+
+@media (max-width: 1200px) {
+    #wall {-webkit-column-count: 4;column-count:4; }
+}
+@media (max-width: 1000px) {
+    #wall {-webkit-column-count: 3;column-count:3;  }
+}
+@media (max-width: 800px) {
+    #wall {-webkit-column-count: 2;column-count:2; }
+}
+@media (max-width: 400px) {
+    #wall {-webkit-column-count: 1;column-count: 1;}
+}

@@ -1,0 +1,30 @@
+{
+	"username":
+	{
+		"tag":"input",
+		"attributes":
+		{
+			"placeholder":"Login",
+			"type":"text"
+		}
+	},
+	"password":
+	{
+		"tag":"input",
+		"attributes":
+		{
+			"placeholder":"Password",
+			"type":"password"
+		}
+	},
+	"submit":
+	{
+		"tag":"input",
+		"attributes":
+		{
+			"type":"submit",
+			"value":"Login",
+			"class":"mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
+		}
+	}
+}

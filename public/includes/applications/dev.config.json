@@ -1,0 +1,28 @@
+{
+    "applications":
+    {
+        "main":
+        {
+			"theme":"default",
+			"multiLanguage": false,
+			"defaultLanguage": "fr",
+			"currentLanguage": "fr",
+			"authenticationHandler":"app\\main\\src\\authentication\\PhotoAuthHandler",
+			"modules":{
+				"front": {
+					"useRoutingFile":true,
+					"defaultController":"core\\application\\DefaultController",
+					"action404":"notFound"
+				}
+			}
+        }
+    },
+    "global": {
+		"debug":false,
+		"session": "photos_an",
+        "explainOnSelect": "",
+        "emailContact": "me@arnaud-nicolas.fr"
+    },
+    "db": {},
+	"extra": {}
+}
